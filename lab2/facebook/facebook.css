@@ -1,0 +1,100 @@
+body{
+	background-color: rgb(240,242,245);
+	font-family: Arial, sans-serif;
+}
+h1{
+	font-size: 60px;
+	color: rgb(32,124,244);
+}
+.greeting_text{
+	font-size: 30px;
+	max-width: 600px;
+	font-weight: bold;
+  	white-space: normal;
+  	position: relative;
+  	bottom: 45px;
+}
+.greeting{
+	position: absolute;
+	top: 140px;
+	left:150px;
+	witdh: 600px;
+}
+.blank{
+	position: absolute;
+	right:200px;
+	top:125px;
+	border: 3px solid rgb(225,227,230);
+	border-radius: 3%;
+	background-color: white;
+	width: 450px;
+	height: 380px;
+}
+.input{
+	width: 400px;
+	height: 50px;
+	margin-top:15px;
+	margin-left:15px;
+	font-size: 20px;
+	padding-left: 15px;
+	border-radius: 8px;
+	border: 2px solid #ccc; 
+}
+input::placeholder{
+	color: rgb(191,195,201);
+}
+input:hover{
+	border-color: rgb(24,120,243);
+}
+input:focus{
+	border-color: rgb(24,120,243);
+	outline:none;
+}
+
+.button{
+	background-color: rgb(24,120,243);
+	text-align: center;
+	width: 420px;
+	height: 50px;
+	margin-top: 15px;
+	margin-left:15px;
+	font-size: 20px;
+	border-radius: 8px;
+	border: 2px solid white; 
+	color: white;
+	font-weight: bold;
+}
+.button:hover{
+	background-color: rgb(15,80,200);
+}
+hr{
+	margin-left:15px;
+	margin-right: 15px;
+	margin-top:25px;
+	border:1px solid rgb(227,230,232);
+}
+.create{
+	background-color: rgb(67,184,43);
+	width: 200px;
+	height: 50px;
+	margin-left: 130px;
+	margin-right: 130px;
+	margin-top: 25px;
+	color: white;
+	border-radius: 8px;
+	border: 2px solid white; 
+	font-size: 18px;
+	
+	font-weight: bold;
+}
+.create:hover{
+	background-color: rgb(40,150,20);
+}
+.ps{
+	position: absolute;
+	right:200px;
+	top:520px;
+	width: 450px;
+	max-width: 450px;
+	font-size: 18px;
+}
